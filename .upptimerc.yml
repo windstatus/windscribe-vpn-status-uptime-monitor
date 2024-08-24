@@ -1,27 +1,375 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: windstatus # Your GitHub organization or username, where this repository lives
+repo: windscribe-vpn-status-uptime-monitor # The name of this repository
+
+# sites:
+#   - name: Google
+#     url: https://www.google.com
+#   - name: Wikipedia
+#     url: https://en.wikipedia.org
+#   - name: Hacker News
+#     url: https://news.ycombinator.com
+#   - name: Test Broken Site
+#     url: https://thissitedoesnotexist.koj.co
+#   - name: IPv6 test
+#     url: forwardemail.net
+#     port: 80
+#     check: "tcp-ping"
+#     ipv6: true
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: US Central Dallas (Ranch)
+    url: https://us-central-014.whiskergalaxy.com:6363/latency
+  - name: US Central Atlanta (Mountain)
+    url: https://us-central-013.whiskergalaxy.com:6363/latency
+  - name: US Central Denver (Barley)
+    url: https://us-central-106.whiskergalaxy.com:6363/latency
+  - name: US Central Dallas (BBQ)
+    url: https://us-central-055.whiskergalaxy.com:6363/latency
+  - name: US Central Atlanta (Piedmont)
+    url: https://us-central-107.whiskergalaxy.com:6363/latency
+  - name: US Central Kansas City (Glinda)
+    url: https://us-central-097.whiskergalaxy.com:6363/latency
+  - name: US Central Dallas (Trinity)
+    url: https://us-central-104.whiskergalaxy.com:6363/latency
+  - name: US Central Houston (Space City)
+    url: https://us-central-108.whiskergalaxy.com:6363/latency
+  - name: US East Chicago (Cub)
+    url: https://us-east-015.whiskergalaxy.com:6363/latency
+  - name: US East New York (Empire)
+    url: https://us-east-013.whiskergalaxy.com:6363/latency
+  - name: US East Chicago (The L)
+    url: https://us-east-019.whiskergalaxy.com:6363/latency
+  - name: US East Miami (Vice)
+    url: https://us-east-012.whiskergalaxy.com:6363/latency
+  - name: US East Cleveland (Brown)
+    url: https://us-east-112.whiskergalaxy.com:6363/latency
+  - name: US East New Jersey (Situation)
+    url: https://us-east-020.whiskergalaxy.com:6363/latency
+  - name: US East Miami (Snow)
+    url: https://us-east-028.whiskergalaxy.com:6363/latency
+  - name: US East Buffalo (Bill)
+    url: https://us-east-045.whiskergalaxy.com:6363/latency
+  - name: US East Boston (MIT)
+    url: https://us-east-051.whiskergalaxy.com:6363/latency
+  - name: US East Charlotte (Earnhardt)
+    url: https://us-east-040.whiskergalaxy.com:6363/latency
+  - name: US East Chicago (Wrigley)
+    url: https://us-east-128.whiskergalaxy.com:6363/latency
+  - name: US East Washington DC (Precedent)
+    url: https://us-east-089.whiskergalaxy.com:6363/latency
+  - name: US East Miami (Florida Man)
+    url: https://us-east-129.whiskergalaxy.com:6363/latency
+  - name: US East New York (Insomnia)
+    url: https://us-east-068.whiskergalaxy.com:6363/latency
+  - name: US East Orlando (Tofu Driver)
+    url: https://us-east-052.whiskergalaxy.com:6363/latency
+  - name: US East Philadelphia (Fresh Prince)
+    url: https://us-east-061.whiskergalaxy.com:6363/latency
+  - name: US East Tampa (Cuban Sandwich)
+    url: https://us-east-110.whiskergalaxy.com:6363/latency
+  - name: US East Detroit (Coney Dog)
+    url: https://us-east-079.whiskergalaxy.com:6363/latency
+  - name: US East New York (Grand Central)
+    url: https://us-east-111.whiskergalaxy.com:6363/latency
+  - name: US East South Bend (Hawkins)
+    url: https://us-east-113.whiskergalaxy.com:6363/latency
+  - name: US East Boston (Harvard)
+    url: https://us-east-117.whiskergalaxy.com:6363/latency
+  - name: US East Philadelphia (Sunny)
+    url: https://us-east-121.whiskergalaxy.com:6363/latency
+  - name: US West Los Angeles (Dogg)
+    url: https://us-west-004.whiskergalaxy.com:6363/latency
+  - name: US West Los Angeles (Pac)
+    url: https://us-west-015.whiskergalaxy.com:6363/latency
+  - name: US West Seattle (Hendrix)
+    url: https://us-west-077.whiskergalaxy.com:6363/latency
+  - name: US West Las Vegas (Casino)
+    url: https://us-west-075.whiskergalaxy.com:6363/latency
+  - name: US West Seattle (Cornell)
+    url: https://us-west-043.whiskergalaxy.com:6363/latency
+  - name: US West Seattle (Cobain)
+    url: https://us-west-056.whiskergalaxy.com:6363/latency
+  - name: US West Bend (Oregon Trail)
+    url: https://us-west-038.whiskergalaxy.com:6363/latency
+  - name: US West Los Angeles (Lamar)
+    url: https://us-west-040.whiskergalaxy.com:6363/latency
+  - name: US West Los Angeles (Cube)
+    url: https://us-west-044.whiskergalaxy.com:6363/latency
+  - name: US West Phoenix (Floatie)
+    url: https://us-west-046.whiskergalaxy.com:6363/latency
+  - name: US West San Francisco (Sanitation)
+    url: https://us-west-048.whiskergalaxy.com:6363/latency
+  - name: US West Santa Clara (Inside)
+    url: https://us-west-050.whiskergalaxy.com:6363/latency
+  - name: US West San Jose (Santana)
+    url: https://us-west-078.whiskergalaxy.com:6363/latency
+  - name: WINDFLIX US New York (Radiohall)
+    url: https://wf-us-012.whiskergalaxy.com:6363/latency
+  - name: Canada East Toronto (The 6)
+    url: https://ca-009.whiskergalaxy.com:6363/latency
+  - name: Canada East Toronto (Comfort Zone)
+    url: https://ca-038.whiskergalaxy.com:6363/latency
+  - name: Canada East Montreal (Bagel Poutine)
+    url: https://ca-027.whiskergalaxy.com:6363/latency
+  - name: Canada East Montreal (Expo 67)
+    url: https://ca-050.whiskergalaxy.com:6363/latency
+  - name: Canada East Halifax (Crosby)
+    url: https://ca-021.whiskergalaxy.com:6363/latency
+  - name: Canada West Vancouver (Stanley)
+    url: https://ca-west-021.whiskergalaxy.com:6363/latency
+  - name: Canada West Vancouver (Granville)
+    url: https://ca-west-023.whiskergalaxy.com:6363/latency
+  - name: Canada West Vancouver (Vansterdam)
+    url: https://ca-west-017.whiskergalaxy.com:6363/latency
+  - name: WINDFLIX CA Toronto (Mansbridge)
+    url: https://wf-ca-004.whiskergalaxy.com:6363/latency
+  - name: Austria Vienna (Hofburg)
+    url: https://at-006.whiskergalaxy.com:6363/latency
+  - name: Austria Vienna (Boltzmann)
+    url: https://at-004.whiskergalaxy.com:6363/latency
+  - name: Belgium Brussels (Guildhouse)
+    url: https://be-007.whiskergalaxy.com:6363/latency
+  - name: Bulgaria Sofia (Nevski)
+    url: https://bg-004.whiskergalaxy.com:6363/latency
+  - name: Croatia Zagreb (Tkalciceva)
+    url: https://hr-005.whiskergalaxy.com:6363/latency
+  - name: Cyprus Nicosia (Blue Lagoon)
+    url: https://cy-002.whiskergalaxy.com:6363/latency
+  - name: Czech Republic Prague (Staromak)
+    url: https://cz-007.whiskergalaxy.com:6363/latency
+  - name: Czech Republic Prague (Vltava)
+    url: https://cz-002.whiskergalaxy.com:6363/latency
+  - name: Denmark Copenhagen (LEGO)
+    url: https://dk-005.whiskergalaxy.com:6363/latency
+  - name: Estonia Tallinn (Lennujaam)
+    url: https://ee-006.whiskergalaxy.com:6363/latency
+  - name: Finland Helsinki (Sauna)
+    url: https://fi-006.whiskergalaxy.com:6363/latency
+  - name: Finland Helsinki (Tram)
+    url: https://fi-007.whiskergalaxy.com:6363/latency
+  - name: France Paris (Seine)
+    url: https://fr-001.whiskergalaxy.com:6363/latency
+  - name: France Paris (Jardin)
+    url: https://fr-008.whiskergalaxy.com:6363/latency
+  - name: France Marseille (La Marseillaise)
+    url: https://fr-024.whiskergalaxy.com:6363/latency
+  - name: Germany Frankfurt (Castle)
+    url: https://de-008.whiskergalaxy.com:6363/latency
+  - name: Germany Frankfurt (Wurstchen)
+    url: https://de-020.whiskergalaxy.com:6363/latency
+  - name: Greece Athens (Odeon)
+    url: https://gr-009.whiskergalaxy.com:6363/latency
+  - name: Hungary Budapest (Danube)
+    url: https://hu-003.whiskergalaxy.com:6363/latency
+  - name: Iceland Reykjavik (Fuzzy Pony)
+    url: https://is-003.whiskergalaxy.com:6363/latency
+  - name: Iceland Reykjavik (Reyka)
+    url: https://is-002.whiskergalaxy.com:6363/latency
+  - name: Ireland Dublin (Guinness)
+    url: https://ie-008.whiskergalaxy.com:6363/latency
+  - name: Ireland Dublin (Dullahan)
+    url: https://ie-003.whiskergalaxy.com:6363/latency
+  - name: Ireland Dublin (Grafton)
+    url: https://ie-010.whiskergalaxy.com:6363/latency
+  - name: Israel Ashdod (Yam Park)
+    url: https://il-005.whiskergalaxy.com:6363/latency
+  - name: Italy Milan (Galleria)
+    url: https://it-009.whiskergalaxy.com:6363/latency
+  - name: Italy Rome (Colosseum)
+    url: https://it-011.whiskergalaxy.com:6363/latency
+  - name: Italy Milan (Duomo)
+    url: https://it-004.whiskergalaxy.com:6363/latency
+  - name: Latvia Riga (Daugava)
+    url: https://lv-013.whiskergalaxy.com:6363/latency
+  - name: Latvia Riga (Saeima)
+    url: https://lv-011.whiskergalaxy.com:6363/latency
+  - name: Lithuania Vilnius (Neris)
+    url: https://lt-004.whiskergalaxy.com:6363/latency
+  - name: Luxembourg Luxembourg (Chemin)
+    url: https://lu-006.whiskergalaxy.com:6363/latency
+  - name: Moldova Chisinau (Dendrarium)
+    url: https://md-003.whiskergalaxy.com:6363/latency
+  - name: Netherlands Amsterdam (Canal)
+    url: https://nl-008.whiskergalaxy.com:6363/latency
+  - name: Netherlands Amsterdam (Tulip)
+    url: https://nl-011.whiskergalaxy.com:6363/latency
+  - name: Netherlands Amsterdam (Bicycle)
+    url: https://nl-015.whiskergalaxy.com:6363/latency
+  - name: Netherlands Amsterdam (Red Light)
+    url: https://nl-013.whiskergalaxy.com:6363/latency
+  - name: North Macedonia Skopje (Vardar)
+    url: https://mk-003.whiskergalaxy.com:6363/latency
+  - name: Norway Oslo (Fjord)
+    url: https://no-003.whiskergalaxy.com:6363/latency
+  - name: Poland Gdansk (Motlawa)
+    url: https://pl-006.whiskergalaxy.com:6363/latency
+  - name: Poland Warsaw (Curie)
+    url: https://pl-007.whiskergalaxy.com:6363/latency
+  - name: Poland Warsaw (Vistula)
+    url: https://pl-004.whiskergalaxy.com:6363/latency
+  - name: Portugal Lisbon (Bairro)
+    url: https://pt-004.whiskergalaxy.com:6363/latency
+  - name: Romania Bucharest (No Vampires)
+    url: https://ro-004.whiskergalaxy.com:6363/latency
+  - name: Slovakia Bratislava (Devin Castle)
+    url: https://sk-003.whiskergalaxy.com:6363/latency
+  - name: Spain Madrid (Prado)
+    url: https://es-005.whiskergalaxy.com:6363/latency
+  - name: Spain Barcelona (Batllo)
+    url: https://es-007.whiskergalaxy.com:6363/latency
+  - name: Sweden Stockholm (Syndrome)
+    url: https://se-007.whiskergalaxy.com:6363/latency
+  - name: Sweden Stockholm (Ikea)
+    url: https://se-003.whiskergalaxy.com:6363/latency
+  - name: Sweden Stockholm (Djurgarden)
+    url: https://se-002.whiskergalaxy.com:6363/latency
+  - name: Switzerland Zurich (Alphorn)
+    url: https://ch-003.whiskergalaxy.com:6363/latency
+  - name: Switzerland Zurich (Altstadt)
+    url: https://ch-017.whiskergalaxy.com:6363/latency
+  - name: Switzerland Zurich (Lindenhof)
+    url: https://ch-005.whiskergalaxy.com:6363/latency
+  - name: United Kingdom Manchester (United)
+    url: https://uk-044.whiskergalaxy.com:6363/latency
+  - name: United Kingdom London (Crumpets)
+    url: https://uk-007.whiskergalaxy.com:6363/latency
+  - name: United Kingdom London (Biscuits)
+    url: https://uk-041.whiskergalaxy.com:6363/latency
+  - name: United Kingdom London (Custard)
+    url: https://uk-020.whiskergalaxy.com:6363/latency
+  - name: United Kingdom Edinburgh (Keeper Willie)
+    url: https://uk-026.whiskergalaxy.com:6363/latency
+  - name: WINDFLIX UK London (The Tube)
+    url: https://wf-uk-001.whiskergalaxy.com:6363/latency
+  - name: Albania Tirana (Besa)
+    url: https://al-003.whiskergalaxy.com:6363/latency
+  - name: Albania Tirana (Fergese)
+    url: https://al-004.whiskergalaxy.com:6363/latency
+  - name: Bosnia Sarajevo (Burek)
+    url: https://ba-001.whiskergalaxy.com:6363/latency
+  - name: Bosnia Novi Travnik (Pisanica)
+    url: https://ba-002.whiskergalaxy.com:6363/latency
+  - name: Georgia Tbilisi (Ghvino)
+    url: https://ge-002.whiskergalaxy.com:6363/latency
+  - name: Ghana Accra (Best Jollof)
+    url: https://gh-001.whiskergalaxy.com:6363/latency
+  - name: India Mumbai (Mahim)
+    url: https://in-009.whiskergalaxy.com:6363/latency
+  - name: India New Delhi (Chole Bhature)
+    url: https://in-014.whiskergalaxy.com:6363/latency
+  - name: Kenya Nairobi (Sigiria)
+    url: https://ke-001.whiskergalaxy.com:6363/latency
+  - name: Russia Saint Petersburg (Shnur)
+    url: https://ru-016.whiskergalaxy.com:6363/latency
+  - name: Russia Saint Petersburg (Hermitage)
+    url: https://ru-012.whiskergalaxy.com:6363/latency
+  - name: Russia Moscow (Goodbye Lenin)
+    url: https://ru-021.whiskergalaxy.com:6363/latency
+  - name: Serbia Belgrade (Rakia)
+    url: https://rs-005.whiskergalaxy.com:6363/latency
+  - name: South Africa Johannesburg (District)
+    url: https://za-001.whiskergalaxy.com:6363/latency
+  - name: South Africa Johannesburg (Lindfield)
+    url: https://za-004.whiskergalaxy.com:6363/latency
+  - name: South Africa Johannesburg (Springbok)
+    url: https://za-009.whiskergalaxy.com:6363/latency
+  - name: Turkey Istanbul (Galata)
+    url: https://tr-018.whiskergalaxy.com:6363/latency
+  - name: Turkey Istanbul (Lygos)
+    url: https://tr-020.whiskergalaxy.com:6363/latency
+  - name: Ukraine Kyiv (Ghost)
+    url: https://ua-010.whiskergalaxy.com:6363/latency
+  - name: Australia Perth (Kings Park)
+    url: https://au-004.whiskergalaxy.com:6363/latency
+  - name: Australia Melbourne (Yarra)
+    url: https://au-005.whiskergalaxy.com:6363/latency
+  - name: Australia Brisbane (Bad Koala)
+    url: https://au-007.whiskergalaxy.com:6363/latency
+  - name: Australia Sydney (Opera House)
+    url: https://au-015.whiskergalaxy.com:6363/latency
+  - name: Australia Sydney (Squidney)
+    url: https://au-019.whiskergalaxy.com:6363/latency
+  - name: Australia Adelaide (Oval)
+    url: https://au-008.whiskergalaxy.com:6363/latency
+  - name: Australia Adelaide (Lofty)
+    url: https://au-011.whiskergalaxy.com:6363/latency
+  - name: Australia Perth (Herdsman)
+    url: https://au-012.whiskergalaxy.com:6363/latency
+  - name: Australia Melbourne (Port Phillip)
+    url: https://au-017.whiskergalaxy.com:6363/latency
+  - name: Australia Brisbane (Good Koala)
+    url: https://au-018.whiskergalaxy.com:6363/latency
+  - name: New Zealand Auckland (Parnell)
+    url: https://nz-004.whiskergalaxy.com:6363/latency
+  - name: New Zealand Auckland (Hauraki)
+    url: https://nz-003.whiskergalaxy.com:6363/latency
+  - name: Cambodia Phnom Penh (Botum Pagoda)
+    url: https://kh-001.whiskergalaxy.com:6363/latency
+  - name: Hong Kong Hong Kong (Victoria)
+    url: https://hk-013.whiskergalaxy.com:6363/latency
+  - name: Hong Kong Hong Kong (Phooey)
+    url: https://hk-006.whiskergalaxy.com:6363/latency
+  - name: Indonesia Jakarta (Old Town)
+    url: https://id-007.whiskergalaxy.com:6363/latency
+  - name: Indonesia Jakarta (Ancol)
+    url: https://id-009.whiskergalaxy.com:6363/latency
+  - name: Japan Tokyo (Shinkansen)
+    url: https://jp-006.whiskergalaxy.com:6363/latency
+  - name: Japan Tokyo (Wabi-sabi)
+    url: https://jp-009.whiskergalaxy.com:6363/latency
+  - name: Malaysia Kuala Lumpur (Perdana)
+    url: https://my-010.whiskergalaxy.com:6363/latency
+  - name: Philippines Manila (Pasig)
+    url: https://ph-006.whiskergalaxy.com:6363/latency
+  - name: Singapore Singapore (Garden)
+    url: https://sg-010.whiskergalaxy.com:6363/latency
+  - name: Singapore Singapore (Marina Bay)
+    url: https://sg-006.whiskergalaxy.com:6363/latency
+  - name: Singapore Singapore (SMRT)
+    url: https://sg-008.whiskergalaxy.com:6363/latency
+  - name: South Korea Seoul (Hangang)
+    url: https://kr-009.whiskergalaxy.com:6363/latency
+  - name: South Korea Seoul (Han River)
+    url: https://kr-010.whiskergalaxy.com:6363/latency
+  - name: Taiwan Taipei (Datong)
+    url: https://tw-008.whiskergalaxy.com:6363/latency
+  - name: Thailand Bangkok (Hangover)
+    url: https://th-006.whiskergalaxy.com:6363/latency
+  - name: Thailand Bangkok (Lumphini)
+    url: https://th-007.whiskergalaxy.com:6363/latency
+  - name: United Arab Emirates Dubai (Khalifa)
+    url: https://ae-002.whiskergalaxy.com:6363/latency
+  - name: Vietnam Hanoi (Red River)
+    url: https://vn-002.whiskergalaxy.com:6363/latency
+  - name: WINDFLIX JP Tokyo (Kaiju)
+    url: https://wf-jp-002.whiskergalaxy.com:6363/latency
+  - name: Argentina Buenos Aires (Tango)
+    url: https://ar-008.whiskergalaxy.com:6363/latency
+  - name: Brazil Sao Paulo (Pinacoteca)
+    url: https://br-008.whiskergalaxy.com:6363/latency
+  - name: Brazil Sao Paulo (Mercadao)
+    url: https://br-007.whiskergalaxy.com:6363/latency
+  - name: Chile Santiago (Cueca)
+    url: https://cl-003.whiskergalaxy.com:6363/latency
+  - name: Colombia Bogota (Rololandia)
+    url: https://co-003.whiskergalaxy.com:6363/latency
+  - name: Ecuador Quito (Cuy)
+    url: https://ec-002.whiskergalaxy.com:6363/latency
+  - name: Mexico Querétaro (Wey)
+    url: https://mx-012.whiskergalaxy.com:6363/latency
+  - name: Panama Panama City (Papers)
+    url: https://pa-001.whiskergalaxy.com:6363/latency
+  - name: Peru Lima (Amaru)
+    url: https://pe-004.whiskergalaxy.com:6363/latency
+  - name: Fake Antarctica Troll (Station)
+    url: https://aq-001.whiskergalaxy.com:6363/latency
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # cname: demo.upptime.js.org
+  baseUrl: /windscribe-vpn-status-uptime-monitor
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
