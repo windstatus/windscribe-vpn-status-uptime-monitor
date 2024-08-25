@@ -826,7 +826,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-25": 690
+      "2024-08-25": 701
     }
   },
   {
@@ -1393,11 +1393,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/il-005.whiskergalaxy.com.ico",
     "slug": "israel-ashdod-yam-park",
     "status": "up",
-    "uptime": "85.21%",
-    "uptimeDay": "85.21%",
-    "uptimeWeek": "85.21%",
-    "uptimeMonth": "85.21%",
-    "uptimeYear": "85.21%",
+    "uptime": "85.44%",
+    "uptimeDay": "85.44%",
+    "uptimeWeek": "85.44%",
+    "uptimeMonth": "85.44%",
+    "uptimeYear": "85.44%",
     "time": 631,
     "timeDay": 631,
     "timeWeek": 631,
@@ -1820,7 +1820,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-25": 689
+      "2024-08-25": 700
     }
   },
   {
@@ -2110,7 +2110,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-25": 688
+      "2024-08-25": 699
     }
   },
   {
@@ -2652,7 +2652,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-25": 687
+      "2024-08-25": 698
     }
   },
   {
@@ -2912,19 +2912,19 @@
     "url": "https://vn-002.whiskergalaxy.com:6363/latency",
     "icon": "https://icons.duckduckgo.com/ip3/vn-002.whiskergalaxy.com.ico",
     "slug": "vietnam-hanoi-red-river",
-    "status": "up",
-    "uptime": "94.02%",
-    "uptimeDay": "94.02%",
-    "uptimeWeek": "94.02%",
-    "uptimeMonth": "94.02%",
-    "uptimeYear": "94.02%",
+    "status": "down",
+    "uptime": "94.00%",
+    "uptimeDay": "94.00%",
+    "uptimeWeek": "94.00%",
+    "uptimeMonth": "94.00%",
+    "uptimeYear": "94.00%",
     "time": 1487,
     "timeDay": 1487,
     "timeWeek": 1487,
     "timeMonth": 1487,
     "timeYear": 1487,
     "dailyMinutesDown": {
-      "2024-08-25": 41
+      "2024-08-25": 42
     }
   },
   {
