@@ -372,8 +372,8 @@ status-website:
   baseUrl: /windscribe-vpn-status-uptime-monitor
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Windscribe VPN Status Uptime Monitor
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "Real-time monitor and tracker for Windscribe VPN server availability and outages"
+  introMessage: "The Windscribe Uptime Monitor is a user-driven (unofficial) project that provides real-time and historical data on the availability of Windscribe VPN servers. Created to fill the transparency gap left by the absence of an official status page, this tool helps users quickly identify server outages, aiding in troubleshooting."
   navbar:
     - title: Windscribe Status
       href: /
@@ -381,7 +381,7 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 workflowSchedule:
-  uptime: "*/10 * * * *"
+  uptime: "*/15 * * * *"
   
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
