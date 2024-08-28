@@ -826,7 +826,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-28": 889,
+      "2024-08-28": 898,
       "2024-08-27": 1440,
       "2024-08-26": 1440,
       "2024-08-25": 1259
@@ -1491,18 +1491,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/lv-011.whiskergalaxy.com.ico",
     "slug": "latvia-riga-saeima",
     "status": "down",
-    "uptime": "35.76%",
+    "uptime": "35.69%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "35.76%",
-    "uptimeMonth": "35.76%",
-    "uptimeYear": "35.76%",
+    "uptimeWeek": "35.69%",
+    "uptimeMonth": "35.69%",
+    "uptimeYear": "35.69%",
     "time": 513,
     "timeDay": 0,
     "timeWeek": 513,
     "timeMonth": 513,
     "timeYear": 513,
     "dailyMinutesDown": {
-      "2024-08-28": 889,
+      "2024-08-28": 899,
       "2024-08-27": 1440,
       "2024-08-26": 901
     }
@@ -1819,11 +1819,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/se-007.whiskergalaxy.com.ico",
     "slug": "sweden-stockholm-syndrome",
     "status": "up",
-    "uptime": "56.50%",
+    "uptime": "56.58%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "56.50%",
-    "uptimeMonth": "56.50%",
-    "uptimeYear": "56.50%",
+    "uptimeWeek": "56.58%",
+    "uptimeMonth": "56.58%",
+    "uptimeYear": "56.58%",
     "time": 516,
     "timeDay": 0,
     "timeWeek": 516,
@@ -2121,7 +2121,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-28": 889,
+      "2024-08-28": 899,
       "2024-08-27": 1440,
       "2024-08-26": 1440,
       "2024-08-25": 1257
@@ -2668,7 +2668,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-08-28": 889,
+      "2024-08-28": 899,
       "2024-08-27": 1440,
       "2024-08-26": 1440,
       "2024-08-25": 1256
@@ -3059,19 +3059,19 @@
     "url": "https://ec-002.whiskergalaxy.com:6363/latency",
     "icon": "https://icons.duckduckgo.com/ip3/ec-002.whiskergalaxy.com.ico",
     "slug": "ecuador-quito-cuy",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 342,
-    "timeDay": 0,
-    "timeWeek": 342,
-    "timeMonth": 342,
-    "timeYear": 342,
+    "status": "up",
+    "uptime": "99.81%",
+    "uptimeDay": "99.33%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.81%",
+    "time": 349,
+    "timeDay": 395,
+    "timeWeek": 349,
+    "timeMonth": 349,
+    "timeYear": 349,
     "dailyMinutesDown": {
-      "2024-08-28": 1
+      "2024-08-28": 10
     }
   },
   {
